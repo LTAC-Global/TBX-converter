@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <?xml-model href="https://raw.githubusercontent.com/LTAC-Global/TBX-Basic_dialect/master/DCA/TBXcoreStructV03_TBX-Basic_integrated.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+  <?xml-model href="https://raw.githubusercontent.com/LTAC-Global/TBX-Basic_dialect/master/DCA/TBX-Basic_DCA.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><tbx style="dca" type="TBX-Basic" xml:lang="en" xmlns="urn:iso:std:iso:30042:ed-2">
+  <tbxHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>IBM Data</title>
+      </titleStmt>
+      <sourceDesc>
+        <p>from an IBM Terminology Sample</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p type="XCSURI">TBXXCSV02.xcs</p>
+    </encodingDesc>
+  </tbxHeader>
+  <text>
+    <body>
+      <conceptEntry id="c1">
+        <descrip type="subjectField">Software</descrip>
+        <descrip type="relatedConcept">navigation tree</descrip>
+        <descrip type="relatedConceptBroader">navigation</descrip>
+        <langSec xml:lang="en">
+          <admin type="productSubset">Servers: eServer xSeries</admin>
+          <adminGrp>
+            <admin type="sourceIdentifier">Translation Services Center</admin>
+          </adminGrp>
+          <termSec>
+            <term>navigation trail</term>
+            <descrip type="context">The trail at the top of the content frame is your
+                            navigation trail, sometimes called a branch.</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="en">
+          <admin type="productSubset">Servers: eServer xSeries</admin>
+          <adminGrp>
+            <admin type="sourceIdentifier">Translation Services Center</admin>
+          </adminGrp>
+          <termSec>
+            <term>branch</term>
+            <descrip type="context">The trail at the top of the content frame in your
+                            navigation trail, sometimes called a branch.</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <admin type="productSubset">Servers: eServer xSeries</admin>
+          <termSec>
+            <term>historique de navigation</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c2">
+        <descrip type="subjectField">Hardware \ Other Processing Units and Specialized
+                    Devices</descrip>
+        <descrip type="relatedConceptBroader">acceptor</descrip>
+        <langSec xml:lang="en">
+          <admin type="productSubset">Retail Store Solutions</admin>
+          <adminGrp>
+            <admin type="sourceIdentifier">Translation Services Center</admin>
+          </adminGrp>
+          <termSec>
+            <term>bill acceptor</term>
+            <descrip type="context">Accepts bill denominations of $1, $2, $5, $10, $20,
+                            $50 and $100. The bill acceptor cassette holds 600 bills. It detects and
+                            rejects counterfeit bills.</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <admin type="productSubset">Retail Store Solutions</admin>
+          <termSec>
+            <term>accepteur de billets</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c3">
+        <descrip type="subjectField">Software \ Application Infrastructure Services \ System
+                    Management</descrip>
+        <langSec xml:lang="en">
+          <admin type="productSubset">Software: Tivoli</admin>
+          <adminGrp>
+            <admin type="sourceIdentifier">Translation Services Center</admin>
+          </adminGrp>
+          <termSec>
+            <term>scheduled operation</term>
+            <descrip type="context">Using the CAD to manage the scheduler requires very
+                            little memory between scheduled operations.</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>opération planifiée</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c4">
+        <descrip type="subjectField">Software</descrip>
+        <descrip type="relatedConceptBroader">gallery</descrip>
+        <langSec xml:lang="en">
+          <admin type="productSubset">Other - Miscellaneous</admin>
+          <adminGrp>
+            <admin type="sourceIdentifier">Translation Services Center</admin>
+          </adminGrp>
+          <termSec>
+            <term>samples gallery</term>
+            <descrip type="context">The program may contain sample source code or
+                            programs, which illustrate programming techniques. These samples are
+                            found in the samples gallery.</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <adminGrp>
+            <admin type="sourceIdentifier">IBM publication</admin>
+          </adminGrp>
+          <termSec>
+            <term>galerie d'exemples</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c5">
+        <descrip type="subjectField">General</descrip>
+        <langSec xml:lang="en">
+          <admin type="productSubset">Retail Store Solutions</admin>
+          <adminGrp>
+            <admin type="sourceIdentifier">Translation Services Center</admin>
+          </adminGrp>
+          <descripGrp>
+            <descrip type="definition">The area of a store comprising conventional lanes
+                            and IBM lanes with a paystation.</descrip>
+          </descripGrp>
+          <termSec>
+            <term>front end</term>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <admin type="productSubset">Retail Store Solutions</admin>
+          <termSec>
+            <term>avant-guichet</term>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+    </body>
+  </text>
+</tbx>

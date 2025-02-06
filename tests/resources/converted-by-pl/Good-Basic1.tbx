@@ -1,0 +1,2507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <?xml-model href="https://raw.githubusercontent.com/LTAC-Global/TBX-Basic_dialect/master/DCA/TBXcoreStructV03_TBX-Basic_integrated.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+  <?xml-model href="https://raw.githubusercontent.com/LTAC-Global/TBX-Basic_dialect/master/DCA/TBX-Basic_DCA.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><tbx style="dca" type="TBX-Basic" xml:lang="en" xmlns="urn:iso:std:iso:30042:ed-2">
+  <tbxHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CRITI TBX-Basic File</title>
+      </titleStmt>
+      <sourceDesc>
+        <p>CRITI system tbx export.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p type="XCSURI">http://www.lisa.org/fileadmin/standards/tbx_basic/TBXBasicXCSV02.xcs</p>
+    </encodingDesc>
+  </tbxHeader>
+  <text>
+    <body>
+      <conceptEntry id="c00d63ffe-d672-4422-9c21-3d96bdd49db3">
+        <descrip type="subjectField">Nationalities</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-21</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>South African</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Sul-Americano</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+          <termSec>
+            <term>Sul-Americana</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">feminine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c0a80941f-ed0c-4aad-a007-c5545bb2ed26">
+        <descrip type="subjectField">Pronomes de Tratamento</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-21</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Your Magnificence</term>
+            <termNote type="partOfSpeech">other</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Vossa Magnificência</term>
+            <termNote type="partOfSpeech">other</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c10762f73-c9e0-4d71-810c-183864106e27">
+        <descrip type="subjectField">Nationalities</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-21</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>American</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Americano</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+          <termSec>
+            <term>Americana</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">feminine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c10a69568-0983-40e6-88e0-cfa7b8064a5b">
+        <descrip type="subjectField">Nationalities</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-21</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Scottish</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Escocês</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+          <termSec>
+            <term>Escocesa</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">feminine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c16d99d35-efc1-45c8-b504-77d2d1b2b803">
+        <descrip type="subjectField">Feelings</descrip>
+        <descrip type="definition">Fear</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-17</date>
+        </transacGrp>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-17</date>
+          </transacGrp>
+          <termSec>
+            <term>Medo</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-17</date>
+            </transacGrp>
+          </termSec>
+          <termSec>
+            <term>Temor</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-17</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="---">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-17</date>
+          </transacGrp>
+          <termSec>
+            <term>Fear</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-17</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c1926ce6d-d063-4bab-8da8-4c77c1453711">
+        <descrip type="subjectField">Parts of Speech</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-21</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Adverb</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Advérbio </term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c1ffc3f4f-bf17-4c08-8cc5-169e10df622e">
+        <descrip type="subjectField">Pronomes de Tratamento</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-21</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Your Highness</term>
+            <termNote type="partOfSpeech">other</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Vossa Alteza</term>
+            <termNote type="partOfSpeech">other</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c22c33396-523b-43d3-8aaf-5c93946858b2">
+        <descrip type="subjectField">Gospel Subjects</descrip>
+        <descrip type="definition">The only begotten son of God in the flesh. Atoned for the sins of all mankind.</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-11-20</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-11-20</date>
+          </transacGrp>
+          <termSec>
+            <term>Jesus Christ</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-11-20</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-11-20</date>
+          </transacGrp>
+          <termSec>
+            <term>Jesus Cristo</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-11-20</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c250036ae-1df8-41a0-8090-8cab3d695d9d">
+        <descrip type="subjectField">Nationalities</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-21</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Croatian</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Croata</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+          <termSec>
+            <term>Croata</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">feminine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c281f2120-2af9-44b9-b643-c0467b709c9c">
+        <descrip type="subjectField">Feelings</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-15</date>
+        </transacGrp>
+        <transacGrp>
+          <transac type="transactionType">modification</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-15</date>
+        </transacGrp>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-15</date>
+          </transacGrp>
+          <termSec>
+            <term>Amor</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-15</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-15</date>
+          </transacGrp>
+          <termSec>
+            <term>Love</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-15</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c2cd9c7d4-c8b6-406f-baea-74ff923243be">
+        <descrip type="subjectField">Nationalities</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-21</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Polish</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Polonês</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+          <termSec>
+            <term>Polonesa</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">feminine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+          <termSec>
+            <term>Polaco</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+          <termSec>
+            <term>Polaca</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">feminine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c305fea23-199a-49fc-8307-a74f83de9165">
+        <descrip type="subjectField">Feelings</descrip>
+        <descrip type="definition">Sad; Upset</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-17</date>
+        </transacGrp>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-17</date>
+          </transacGrp>
+          <termSec>
+            <term>Tristeza</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-17</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-17</date>
+          </transacGrp>
+          <termSec>
+            <term>Sadness</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-17</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c32648e6a-c698-4dde-8b39-7e3d44b8e6aa">
+        <descrip type="subjectField">Gospel Subjects</descrip>
+        <descrip type="definition">The act of communicating with God</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-11-20</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-11-20</date>
+          </transacGrp>
+          <termSec>
+            <term>Prayer</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-11-20</date>
+            </transacGrp>
+          </termSec>
+          <termSec>
+            <term>Pray</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-11-20</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-11-20</date>
+          </transacGrp>
+          <termSec>
+            <term>Oração</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">feminine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-11-20</date>
+            </transacGrp>
+          </termSec>
+          <termSec>
+            <term>Orar</term>
+            <termNote type="partOfSpeech">verb</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-11-20</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c397c8356-7074-479d-85ef-98442a0edba1">
+        <descrip type="subjectField">Nationalities</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-21</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>German</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Alemão</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+          <termSec>
+            <term>Alemã</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">feminine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c3b3c552c-0c06-401b-a46f-34e7d57352fd">
+        <descrip type="subjectField">Parts of Speech</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-21</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Preposition</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Preposição</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c3c45a20b-6e28-44f1-9b22-a2ef8b852a97">
+        <descrip type="subjectField">Nationalities</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-21</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Swiss</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Suíço</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+          <termSec>
+            <term>Suíça</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">feminine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+          <termSec>
+            <term>Helvécio</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+          <termSec>
+            <term>Helvécia</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">feminine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c3c704cf7-25e8-42dc-8379-7b107a399ed8">
+        <descrip type="subjectField">Nationalities</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-21</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Chinese</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Chinês</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+          <termSec>
+            <term>Chinesa</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">feminine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c3f05de6f-d31b-4734-8325-ac37ed60fc88">
+        <descrip type="subjectField">Nationalities</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-21</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Indian</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Indiano</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+          <termSec>
+            <term>Indiana</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">feminine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c42e43c0f-0c41-45a4-a4f0-61ab8662d4fd">
+        <descrip type="subjectField">Gospel Subjects</descrip>
+        <descrip type="definition">Repentance</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-11-20</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-11-20</date>
+          </transacGrp>
+          <termSec>
+            <term>Repentance</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-11-20</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-11-20</date>
+          </transacGrp>
+          <termSec>
+            <term>Arrependimento</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-11-20</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c4d2ad993-0e42-41fe-93ca-3b9297b3a626">
+        <descrip type="subjectField">Feelings</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-15</date>
+        </transacGrp>
+        <langSec xml:lang="pt">
+          <descrip type="definition">A strong longing for a close friend, lover, spouse, etc. Denotes a level of Intimacy.</descrip>
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-15</date>
+          </transacGrp>
+          <transacGrp>
+            <transac type="transactionType">modification</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-15</date>
+          </transacGrp>
+          <termSec>
+            <term>Saudade</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">feminine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-15</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c4d608be0-c92f-40fe-91ce-a91b3a6a7120">
+        <descrip type="subjectField">Nationalities</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-21</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Mexican</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Mexicano</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+          <termSec>
+            <term>Mexicana</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">feminine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c557f0609-33be-4006-afb3-5ad520a3af21">
+        <descrip type="subjectField">Feelings</descrip>
+        <descrip type="definition">Joy or pleasure.</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-11-20</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-11-20</date>
+          </transacGrp>
+          <termSec>
+            <term>Happiness</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-11-20</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-11-20</date>
+          </transacGrp>
+          <termSec>
+            <term>Felicidade</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">feminine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-11-20</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c5f29e9a5-b188-49c9-b26d-e5fb18180a8c">
+        <descrip type="subjectField">Feelings</descrip>
+        <descrip type="definition">Feelings</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-17</date>
+        </transacGrp>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-17</date>
+          </transacGrp>
+          <termSec>
+            <term>Sentimento</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-17</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c6bca58bd-720b-4445-9d98-c2fe8a4ed17d">
+        <descrip type="subjectField">Parts of Speech</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-21</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Noun</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c80592be8-8adc-46df-b8bd-6276dc148da2">
+        <descrip type="subjectField">Nationalities</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-21</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>French</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Francês</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+          <termSec>
+            <term>Francesa</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">feminine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c818e56fb-c2cc-4a51-9c6d-55e63b13e72a">
+        <descrip type="subjectField">Nationalities</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-21</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Bolivian</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Boliviano</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+          <termSec>
+            <term>Boliviana</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">feminine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c8525aafa-471f-414c-8263-25c156ade53e">
+        <descrip type="subjectField">Nationalities</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-21</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Spaniard</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Espanhol</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+          <termSec>
+            <term>Espanhola</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c864a68ee-91c2-4637-a3ae-f2a534679d70">
+        <descrip type="subjectField">Pronomes de Tratamento</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-21</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Your Majesty</term>
+            <termNote type="partOfSpeech">other</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Vossa Majestade</term>
+            <termNote type="partOfSpeech">other</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c88538d88-1164-4959-94a0-a565e15eecee">
+        <descrip type="subjectField">Gospel Subjects</descrip>
+        <descrip type="definition">The third member of the God head. has no physical body, the comforter. </descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-11-20</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-11-20</date>
+          </transacGrp>
+          <termSec>
+            <term>Holy Ghost</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-11-20</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-11-20</date>
+          </transacGrp>
+          <termSec>
+            <term>Espirito Santo</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-11-20</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c901e521c-81d5-4cac-8e56-d1c1f63e4a2a">
+        <descrip type="subjectField">Feelings</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-17</date>
+        </transacGrp>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-17</date>
+          </transacGrp>
+          <termSec>
+            <term>Felicidade</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-17</date>
+            </transacGrp>
+          </termSec>
+          <termSec>
+            <term>Alegria</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-17</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c94753256-b2a7-42ff-bd73-2158699743fb">
+        <descrip type="subjectField">Nationalities</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-21</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Russian</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Russo</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+            <transacGrp>
+              <transac type="transactionType">modification</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+          <termSec>
+            <term>Russa</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">feminine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c94a3a2dd-d9de-425a-861a-4968f2222ec4">
+        <descrip type="subjectField">Pronomes de Tratamento</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-21</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Your Holiness</term>
+            <termNote type="partOfSpeech">other</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Vossa Santidade</term>
+            <termNote type="partOfSpeech">other</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="c96d9b902-c18d-4796-bbf6-66a138b7ed5e">
+        <descrip type="definition">House</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-17</date>
+        </transacGrp>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-17</date>
+          </transacGrp>
+          <termSec>
+            <term>Casa</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-17</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-17</date>
+          </transacGrp>
+          <termSec>
+            <term>House</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-17</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="caba61ad1-bf26-425a-a3e9-0c745ebf5f1c">
+        <descrip type="subjectField">Nationalities</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-21</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Italian</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Italiano</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+          <termSec>
+            <term>Italiana</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">feminine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="cb01e1055-5370-4509-bcbd-2221830009b0">
+        <descrip type="subjectField">Nationalities</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-21</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Greek</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Grego</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+          <termSec>
+            <term>Grega</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">feminine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="cb307a400-17f4-4b2c-b5aa-278b09d444c6">
+        <descrip type="subjectField">Parts of Speech</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-21</date>
+        </transacGrp>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Sujeito</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="---">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Noun</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="cb5294d55-2eb9-41a8-b0ac-d30d9bf7b0f3">
+        <descrip type="subjectField">Parts of Speech</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-21</date>
+        </transacGrp>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Verbo</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Verb</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="cc4e6f4b5-2267-4abd-926a-bfdd3d02e2ec">
+        <descrip type="subjectField">Nationalities</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-21</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Japanese</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Japonês</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+          <termSec>
+            <term>Japonesa</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">feminine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="cc6d02c6a-2b43-4178-bd7d-67e233eef78c">
+        <descrip type="subjectField">Gospel Subjects</descrip>
+        <descrip type="definition">To believe in, trust in, or act upon a hope or believe in a thing, person, etc.</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-11-20</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-11-20</date>
+          </transacGrp>
+          <termSec>
+            <term>Faith</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-11-20</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-11-20</date>
+          </transacGrp>
+          <termSec>
+            <term>Fé</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">feminine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-11-20</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="cc8812f53-5fbc-49fc-86ff-f7db36db08d6">
+        <descrip type="subjectField">Nationalities</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-21</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Swedish</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Sueco</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+          <termSec>
+            <term>Sueca</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">feminine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="ccc1911eb-a768-4c25-8af3-8b588bdcf6c6">
+        <descrip type="subjectField">Gospel Subjects</descrip>
+        <descrip type="definition">The day of rest, observed because God rested on the 7th day of the creation. </descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-11-20</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-11-20</date>
+          </transacGrp>
+          <termSec>
+            <term>Sabbath</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-11-20</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-11-20</date>
+          </transacGrp>
+          <termSec>
+            <term>Sábado</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-11-20</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="cd08013c8-04b9-4632-bc87-db3c6bdba2db">
+        <descrip type="subjectField">Nationalities</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-21</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Australian</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Australiano</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+          <termSec>
+            <term>Australiana</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">feminine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="cd0d0bf95-5291-4ec3-935a-05c59a0e7b58">
+        <descrip type="subjectField">Gospel Subjects</descrip>
+        <descrip type="definition">The teachings of Christ</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-11-20</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-11-20</date>
+          </transacGrp>
+          <termSec>
+            <term>Gospel</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-11-20</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-11-20</date>
+          </transacGrp>
+          <termSec>
+            <term>Evangelho</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-11-20</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="cd3e4889e-f199-4252-b7eb-97587acfca05">
+        <descrip type="subjectField">Nationalities</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-21</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Colombian</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Colombiano</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+          <termSec>
+            <term>Colombiana</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">feminine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="cd7243818-7fad-453f-bb3d-13f5d0ff3c46">
+        <descrip type="subjectField">Nationalities</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-21</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Angolan</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Angolano</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+          <termSec>
+            <term>Angolana</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">feminine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="cf07d53e6-4248-407a-81a3-7379ab47054d">
+        <descrip type="subjectField">Gospel Subjects</descrip>
+        <descrip type="definition">A title given to the supreme being that rules time and space, the Alpha and Omega.</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-11-20</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-11-20</date>
+          </transacGrp>
+          <termSec>
+            <term>God</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-11-20</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-11-20</date>
+          </transacGrp>
+          <termSec>
+            <term>Deus</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-11-20</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="cf6071569-a3f6-429a-80ae-a30b91e9b33b">
+        <descrip type="subjectField">Nationalities</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-21</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Brazilian</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Brasileiro</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+          <termSec>
+            <term>Brasileira</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">feminine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="cf7779bf0-4faf-4448-96f7-ee81a5bc28a4">
+        <descrip type="subjectField">Feelings</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-15</date>
+        </transacGrp>
+        <transacGrp>
+          <transac type="transactionType">modification</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-15</date>
+        </transacGrp>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-15</date>
+          </transacGrp>
+          <termSec>
+            <term>Ódio</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-15</date>
+            </transacGrp>
+          </termSec>
+          <termSec>
+            <term>Raiva</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-15</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-15</date>
+          </transacGrp>
+          <termSec>
+            <term>Anger</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-15</date>
+            </transacGrp>
+            <transacGrp>
+              <transac type="transactionType">modification</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-15</date>
+            </transacGrp>
+          </termSec>
+          <termSec>
+            <term>Hatred</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-15</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="cfc3f941f-c856-4aa3-b350-a38ac9afd0a5">
+        <descrip type="subjectField">Nationalities</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-10-21</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>African</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-10-21</date>
+          </transacGrp>
+          <termSec>
+            <term>Africano</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+          <termSec>
+            <term>Africana</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">feminine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-10-21</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="cfdb16591-4785-4366-b874-6c10533e1517">
+        <descrip type="subjectField">Gospel Subjects</descrip>
+        <descrip type="definition">The immersion of a person in water for the remission of sins in many religions.</descrip>
+        <transacGrp>
+          <transac type="transactionType">origination</transac>
+          <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+          <date>2016-11-20</date>
+        </transacGrp>
+        <langSec xml:lang="en">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-11-20</date>
+          </transacGrp>
+          <termSec>
+            <term>Baptism</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-11-20</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <transacGrp>
+            <transac type="transactionType">origination</transac>
+            <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+            <date>2016-11-20</date>
+          </transacGrp>
+          <termSec>
+            <term>Batismo</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+            <transacGrp>
+              <transac type="transactionType">origination</transac>
+              <transacNote target="p7801eb9a-28ff-4c27-85a8-fdbb052e12da" type="responsibility">Kaden Carr</transacNote>
+              <date>2016-11-20</date>
+            </transacGrp>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+    </body>
+    <back>
+      <refObjectSec type="respPerson">
+        <refObject id="p7801eb9a-28ff-4c27-85a8-fdbb052e12da">
+          <item type="role">staff</item>
+          <item type="fn">Kaden Carr</item>
+          <item type="email">b.kaden.carr@gmail.com</item>
+        </refObject>
+        <refObject id="pca538f0b-4498-47e4-8669-566867189da8">
+          <item type="role">staff</item>
+          <item type="fn">Kaden Carr</item>
+          <item type="email">b.kaden.carr@gmail.com</item>
+        </refObject>
+        <refObject id="pcee20dd8-5967-4627-8d48-b9e80c87338a">
+          <item type="role">staff</item>
+          <item type="fn">Kaden Carr</item>
+          <item type="email">b.kaden.carr@gmail.com</item>
+        </refObject>
+        <refObject id="pf5bda12d-da8f-4c0f-8eff-7ed70a4a6dbe">
+          <item type="role">staff</item>
+          <item type="fn">Kaden Carr</item>
+          <item type="email">b.kaden.carr@gmail.com</item>
+        </refObject>
+      </refObjectSec>
+    </back>
+  </text>
+</tbx>

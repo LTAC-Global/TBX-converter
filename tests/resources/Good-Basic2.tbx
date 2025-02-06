@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE martif SYSTEM "TBXBasiccoreStructV02.dtd">
+<!-- Created by the CRITI terminology management system. -->
+<martif type="TBX-Basic" xml:lang="en">
+  <martifHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>CRITI TBX-Basic File</title>
+      </titleStmt>
+      <sourceDesc>
+        <p>CRITI system tbx export.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p type="XCSURI">http://www.lisa.org/fileadmin/standards/tbx_basic/TBXBasicXCSV02.xcs</p>
+    </encodingDesc>
+  </martifHeader>
+  <text>
+    <body>
+      <termEntry id="c1afbb389-97a3-4a56-8020-7c99fca6dc35">
+        <descrip type="subjectField">gospel</descrip>
+        <descrip type="definition">-</descrip>
+        <langSet xml:lang="en">
+          <tig>
+            <term>peace</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+        <langSet xml:lang="es">
+          <tig>
+            <term>paz</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">feminine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c24ad29b7-f7f6-4889-8554-7373f6f0424d">
+        <descrip type="subjectField">general</descrip>
+        <descrip type="definition">-</descrip>
+        <langSet xml:lang="en">
+          <descrip type="definition">una medida</descrip>
+          <tig>
+            <term>time</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+        <langSet xml:lang="es">
+          <descrip type="definition">una medida</descrip>
+          <tig>
+            <term>tiempo</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c27429c63-882d-41b6-a41e-7db4a8bc1a6e">
+        <descrip type="subjectField">general</descrip>
+        <descrip type="definition">-</descrip>
+        <langSet xml:lang="en">
+          <tig>
+            <term>plans</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+        <langSet xml:lang="es">
+          <tig>
+            <term>planes</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3ab9cca7-6ae0-45f2-97a9-88cbcc029691">
+        <descrip type="subjectField">time</descrip>
+        <descrip type="definition">-</descrip>
+        <langSet xml:lang="en">
+          <descrip type="definition">una medida de timpo, 365 dias</descrip>
+          <tig>
+            <term>year</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+        <langSet xml:lang="es">
+          <descrip type="definition">una medida de timpo, 365 dias</descrip>
+          <tig>
+            <term>año </term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c3e33cb5d-4cdf-4252-b511-21819e49bab1">
+        <descrip type="subjectField">gospel, relationships</descrip>
+        <descrip type="definition">-</descrip>
+        <langSet xml:lang="en">
+          <descrip type="definition">un titulo de Dios</descrip>
+          <tig>
+            <term>Heavenly Father</term>
+            <termNote type="partOfSpeech">properNoun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+        <langSet xml:lang="es">
+          <descrip type="definition">un titulo de Dios</descrip>
+          <tig>
+            <term>Padre Celestial</term>
+            <termNote type="partOfSpeech">properNoun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c512f87ea-9ec1-48fe-9ab3-069e5c15a505">
+        <descrip type="subjectField">general</descrip>
+        <descrip type="definition">-</descrip>
+        <langSet xml:lang="en">
+          <descrip type="definition">Unidad lingüística, dotada generalmente de significado, que se separa de las demás mediante pausas potenciales en la pronunciación y blancos en la escritura</descrip>
+          <tig>
+            <term>word</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+        <langSet xml:lang="es">
+          <descrip type="definition">Unidad lingüística, dotada generalmente de significado, que se separa de las demás mediante pausas potenciales en la pronunciación y blancos en la escritura</descrip>
+          <tig>
+            <term>palabra</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">feminine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c595c3ff4-9bef-4dd5-8d1a-d1177f39d857">
+        <descrip type="subjectField">relationships</descrip>
+        <descrip type="definition">-</descrip>
+        <langSet xml:lang="en">
+          <tig>
+            <term>sister</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+        <langSet xml:lang="es">
+          <tig>
+            <term>hermana</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">feminine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c73bee5a7-f613-4a42-a3a0-ce151e582465">
+        <descrip type="subjectField">general</descrip>
+        <descrip type="definition">-</descrip>
+        <langSet xml:lang="en">
+          <descrip type="definition">Conjunto de todo lo existente</descrip>
+          <tig>
+            <term>world</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+        <langSet xml:lang="es">
+          <descrip type="definition">Conjunto de todo lo existente</descrip>
+          <tig>
+            <term>mundo</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c78d092de-3474-45bc-ac0a-8c7680fe9117">
+        <descrip type="subjectField">gospel</descrip>
+        <langSet xml:lang="en">
+          <tig>
+            <term>temple</term>
+            <termNote type="partOfSpeech">other</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c7c23f420-fad5-45c7-8ec3-30e9a2764fe1">
+        <descrip type="subjectField">relationships</descrip>
+        <descrip type="definition">-</descrip>
+        <langSet xml:lang="en">
+          <descripGrp>
+            <descrip type="definition">Parte de un todo unida con él</descrip>
+            <admin type="source">Google</admin>
+          </descripGrp>
+          <tig>
+            <term>member</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+        <langSet xml:lang="es">
+          <descripGrp>
+            <descrip type="definition">Parte de un todo unida con él</descrip>
+            <admin type="source">Google</admin>
+          </descripGrp>
+          <tig>
+            <term>miembro</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c80a37be3-8345-4ff1-8dd0-334073940700">
+        <descrip type="subjectField">gospel</descrip>
+        <langSet xml:lang="en">
+          <tig>
+            <term>Blessings</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c85619aab-3787-4954-93ec-2f98ad2031da">
+        <descrip type="subjectField">general</descrip>
+        <descrip type="definition">-</descrip>
+        <langSet xml:lang="en">
+          <tig>
+            <term>privilege</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+        <langSet xml:lang="es">
+          <tig>
+            <term>privilegio</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c88340aff-b5c9-4473-9d04-ae4d16c9ebad">
+        <descrip type="subjectField">time</descrip>
+        <descrip type="definition">-</descrip>
+        <langSet xml:lang="en">
+          <tig>
+            <term>November</term>
+            <termNote type="partOfSpeech">properNoun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+        <langSet xml:lang="es">
+          <tig>
+            <term>noviembre</term>
+            <termNote type="partOfSpeech">properNoun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+          <tig>
+            <term>-</term>
+            <termNote type="partOfSpeech">other</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+        <langSet xml:lang="es">
+          <tig>
+            <term>noviembre</term>
+            <termNote type="partOfSpeech">properNoun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+          <tig>
+            <term>-</term>
+            <termNote type="partOfSpeech">other</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c8a5ccf9f-c754-46ed-968b-a5c6b653a4d9">
+        <descrip type="subjectField">general</descrip>
+        <descrip type="definition">-</descrip>
+        <langSet xml:lang="en">
+          <descrip type="definition">Conjunto de todo lo existente</descrip>
+          <tig>
+            <term>world</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+        <langSet xml:lang="es">
+          <descrip type="definition">Conjunto de todo lo existente</descrip>
+          <tig>
+            <term>mundo</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9a419db2-8aee-4116-a439-3e1918318522">
+        <descrip type="subjectField">gospel</descrip>
+        <descrip type="definition">-</descrip>
+        <langSet xml:lang="en">
+          <tig>
+            <term>spirituality</term>
+            <termNote type="partOfSpeech">adjective</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="c9a8e30f1-4f7f-41d3-b7ce-af799e36787a">
+        <descrip type="subjectField">general</descrip>
+        <descrip type="definition">-</descrip>
+        <langSet xml:lang="en">
+          <tig>
+            <term>youth</term>
+            <termNote type="partOfSpeech">other</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+        <langSet xml:lang="es">
+          <tig>
+            <term>jovenes</term>
+            <termNote type="partOfSpeech">other</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="ca5fa07aa-bab6-45a2-bf38-b55b67284dbe">
+        <descrip type="subjectField">general</descrip>
+        <descrip type="definition">-</descrip>
+        <langSet xml:lang="en">
+          <tig>
+            <term>challenge</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+        <langSet xml:lang="es">
+          <tig>
+            <term>desafio</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="caa79aa80-0c50-4ef6-9925-ea282f941dcf">
+        <descrip type="subjectField">general</descrip>
+        <descrip type="definition">-</descrip>
+        <langSet xml:lang="en">
+          <descrip type="definition">fadjslkfjasklf jaskd</descrip>
+          <tig>
+            <term>resources</term>
+            <termNote type="partOfSpeech">other</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="caff4ff62-336a-4ea6-9cbc-cab773eb77fe">
+        <descrip type="subjectField">general</descrip>
+        <descrip type="definition">-</descrip>
+        <langSet xml:lang="en">
+          <descrip type="definition">-</descrip>
+          <tig>
+            <term>process</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+        <langSet xml:lang="es">
+          <descrip type="definition">-</descrip>
+          <tig>
+            <term>processo</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="ccd3cfca1-d9a3-45cf-acd3-94b70f382cf0">
+        <descrip type="subjectField">general</descrip>
+        <descrip type="definition">-</descrip>
+        <langSet xml:lang="en">
+          <descrip type="definition">Conjunto de todo lo existente</descrip>
+          <tig>
+            <term>world</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+        <langSet xml:lang="es">
+          <descrip type="definition">Conjunto de todo lo existente</descrip>
+          <tig>
+            <term>mundo</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="ccfd6a165-ae32-407f-a83e-94a0d253cc58">
+        <descrip type="subjectField">time</descrip>
+        <descrip type="definition">-</descrip>
+        <langSet xml:lang="en">
+          <tig>
+            <term>day</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+        <langSet xml:lang="es">
+          <tig>
+            <term>día</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="ce4c93037-651a-4710-8b0c-0abe283786f2">
+        <descrip type="subjectField">gospel</descrip>
+        <descrip type="definition">pertaining to God</descrip>
+        <langSet xml:lang="en">
+          <descripGrp>
+            <descrip type="definition">Digno de veneración por su carácter divino o por estar relacionado con la divinidad.</descrip>
+            <admin type="source">Real Academia Espanol</admin>
+          </descripGrp>
+          <tig>
+            <term>sacred</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">neuter</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+        <langSet xml:lang="es">
+          <descripGrp>
+            <descrip type="definition">Digno de veneración por su carácter divino o por estar relacionado con la divinidad.</descrip>
+            <admin type="source">Real Academia Espanol</admin>
+          </descripGrp>
+          <tig>
+            <term>sagrado</term>
+            <termNote type="partOfSpeech">adjective</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="ceaec771a-4879-41ac-8fcd-5414a0d500ca">
+        <descrip type="subjectField">object</descrip>
+        <descrip type="definition">jfkdsalfja sdlfjasdkl</descrip>
+        <langSet xml:lang="en">
+          <descripGrp>
+            <descrip type="definition">una manera para entrar o salir</descrip>
+            <admin type="source">YO</admin>
+          </descripGrp>
+          <tig>
+            <term>door</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+        <langSet xml:lang="es">
+          <descripGrp>
+            <descrip type="definition">una manera para entrar o salir</descrip>
+            <admin type="source">YO</admin>
+          </descripGrp>
+          <tig>
+            <term>las puertas</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">feminine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="cefbbd821-ebb8-4123-b533-19487d83b0eb">
+        <descrip type="subjectField">relationships</descrip>
+        <descrip type="definition">a connection, association, or involvement</descrip>
+        <langSet xml:lang="en">
+          <tig>
+            <term>brother</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+        <langSet xml:lang="es">
+          <tig>
+            <term>hermano</term>
+            <termNote type="partOfSpeech">noun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="cfa1ddbe8-a88d-45fe-8678-d2dfb144addd">
+        <descrip type="subjectField">gospel</descrip>
+        <descrip type="definition">-</descrip>
+        <langSet xml:lang="en">
+          <tig>
+            <term>Savior</term>
+            <termNote type="partOfSpeech">properNoun</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+        <langSet xml:lang="es">
+          <tig>
+            <term>Salvador</term>
+            <termNote type="partOfSpeech">properNoun</termNote>
+            <termNote type="grammaticalGender">masculine</termNote>
+            <termNote type="administrativeStatus">preferredTerm-admn-sts</termNote>
+          </tig>
+        </langSet>
+      </termEntry>
+    </body>
+  </text>
+</martif>
