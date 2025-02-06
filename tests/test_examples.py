@@ -47,8 +47,9 @@ def example_conversions(request):
 def test_compare_with_perl_output_for_example_tbx_files(example_conversions):
     tbx2_path, tbx3_path = example_conversions
     canonical_tbx3_gold_string_from_pl = ET.canonicalize(from_file=str(tbx3_path))
-    processing_instructions, tbx3_tree_from_py = convert_tbx(str(tbx2_path))
-    tbx3_string_from_py = elementtree_to_string(processing_instructions, tbx3_tree_from_py)
+    with tbx2_path.open() as f:
+        tbx2_string = f.read()
+    tbx3_string_from_py = convert_tbx(tbx2_string)
     canonical_tbx3_string_from_py = ET.canonicalize(tbx3_string_from_py)
     with open(f"/tmp/pytest/gold-{tbx2_path.name}", 'w') as f:
         f.write(canonical_tbx3_gold_string_from_pl)

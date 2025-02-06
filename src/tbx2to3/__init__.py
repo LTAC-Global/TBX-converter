@@ -151,10 +151,10 @@ def transform_tbx(root: ET.Element, parent_map: dict):
         root.tag = rename_map[old_tag]
 
 
-def convert_tbx(input_file: str, silent: bool = True) -> ET:
+def convert_tbx(input_string: str, silent: bool = True, schemas_js=None) -> str:
     """
     Main routine that:
-      1) Parses the TBX file.
+      1) Parses the TBX string.
       2) Transforms tags/attributes to the latest TBX standard.
       3) Optionally prompts user to save or prints to stdout.
       4) Inserts schema references (xml-model processing instructions) if found.
@@ -163,14 +163,8 @@ def convert_tbx(input_file: str, silent: bool = True) -> ET:
     :param silent: If True, runs without user prompts.
     """
     # Parse the XML
-    try:
-        tree = ET.parse(input_file)
-    except ET.ParseError as e:
-        sys.exit(f"Error parsing the XML: {e}")
-    except OSError as e:
-        sys.exit(f"Error opening file {input_file}: {e}")
-
-    root = tree.getroot()
+    root = ET.fromstring(input_string)
+    tree = ET.ElementTree(root)
 
     # Build the parent map so we can remove or reattach elements
     parent_map = build_parent_map(root)
@@ -181,10 +175,13 @@ def convert_tbx(input_file: str, silent: bool = True) -> ET:
     # Add namespace to the root (as per new TBX standard)
     root.set("xmlns", "urn:iso:std:iso:30042:ed-2")
 
-    # Fetch dialect from the new <tbx> root, if present
-    dialect = root.get("type", None)
-    schemas = fetch_schemas(dialect)
-    print(schemas)
+    if schemas_js is None:
+        # Fetch dialect from the new <tbx> root, if present
+        dialect = root.get("type", None)
+        schemas = fetch_schemas(dialect)
+    else:
+        # Assuming 'schemas' is a pyodide.ffi.JsProxy
+        schemas = schemas_js.to_py()  # Convert JsProxy to python dictionary
 
     # We'll hold processing instructions in a list
     processing_instructions = []
@@ -200,7 +197,8 @@ def convert_tbx(input_file: str, silent: bool = True) -> ET:
         )
     # If you wanted to insert dct_nvdl or other references, do so here similarly.
 
-    return processing_instructions, tree
+    output_string = elementtree_to_string(processing_instructions, tree)
+    return output_string
 
 
 def elementtree_to_string(processing_instructions: List[str], tree: ET.ElementTree, encoding='unicode', xml_declaration=False) -> str:
@@ -236,8 +234,9 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     print("Starting file analysis:")
-    processing_instructions, converted_tree = convert_tbx(args.input_file, silent=args.silent)
-    output_string = elementtree_to_string(processing_instructions, converted_tree)
+    with open(args.input_file, encoding='utf8') as f:
+        input_str = f.read()
+    output_string = convert_tbx(input_str, silent=args.silent)
     # Non-silent mode: prompt the user
     if not args.silent:
         ans = input("Would you like to save the output to a file? Press (y/n).\n").strip().lower()
