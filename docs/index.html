@@ -99,22 +99,22 @@
       // 1) Initialize Pyodide
       pyodide = await loadPyodide();
 
-      // 2) Fetch the tbx2to3.py file, store it in Pyodide's FS
-      const response = await fetch("py/tbx2to3.py");
+      // 2) Fetch the tbxtools.py file, store it in Pyodide's FS
+      const response = await fetch("py/tbxtools.py");
       if (!response.ok) {
-        throw new Error(`Failed to fetch tbx2to3.py: ${response.statusText}`);
+        throw new Error(`Failed to fetch tbxtools.py: ${response.statusText}`);
       }
       const pythonCode = await response.text();
 
       // 3) Write that code into the Pyodide file system
-      pyodide.FS.writeFile("tbx2to3.py", pythonCode);
+      pyodide.FS.writeFile("tbxtools.py", pythonCode);
 
       // 4) Now we can import it in Pyodide
       await pyodide.runPythonAsync(`
 import sys
 sys.path.append(".")  # Ensure current dir is on Python path
-import tbx2to3
-print("tbx2to3.py loaded into Pyodide")
+import tbxtools
+print("tbxtools.py loaded into Pyodide")
       `);
     }
 
@@ -154,8 +154,8 @@ print("tbx2to3.py loaded into Pyodide")
 
         // 3) Run the Python code, providing 'schemas_js=schemas_js'
         const code = `
-import tbx2to3
-converted_xml = tbx2to3.convert_tbx(tbx_input, silent=True, schemas_js=schemas_js)
+import tbxtools
+converted_xml = tbxtools.convert_tbx(tbx_input, silent=True, schemas_js=schemas_js)
 converted_xml
 `;
         const result = await pyodide.runPythonAsync(code);

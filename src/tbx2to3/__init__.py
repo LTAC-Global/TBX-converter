@@ -1,1 +1,0 @@
-../../docs/py/tbx2to3.py

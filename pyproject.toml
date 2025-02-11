@@ -1,9 +1,9 @@
 [project]
-name = "tbx2to3"
+name = "tbxtools"
 version = "0.1.0"
-description = "Add your description here"
+description = "Utilities for working with TermBase Exchange files (TBX)."
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.8"
 dependencies = []
 
 [dependency-groups]

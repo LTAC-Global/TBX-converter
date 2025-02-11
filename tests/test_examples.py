@@ -5,8 +5,8 @@ from xml.dom import minidom
 
 import pytest
 
-from tbx2to3 import convert_tbx
-from tbx2to3 import elementtree_to_string
+from tbxtools import convert_tbx
+from tbxtools import elementtree_to_string
 
 tbx2_paths = list((Path(__file__).parent / 'resources').glob('*.tbx'))
 

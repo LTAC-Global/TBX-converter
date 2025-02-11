@@ -1,4 +1,4 @@
-from tbx2to3 import fetch_schemas
+from tbxtools import fetch_schemas
 
 
 def test_fetch_schemas():
