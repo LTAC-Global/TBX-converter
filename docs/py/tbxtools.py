@@ -16,10 +16,22 @@ Options:
 import argparse
 import io
 import json
+import re
 import sys
 from typing import List
 import urllib.request
 import xml.etree.ElementTree as ET
+
+check_version_messages = {
+    "not_xml":        "This file does not appear to be an XML or TBX file.",
+    "bad_ext":        "This file does not appear to have the correct file extension.",
+    "malformed_xml":  "File does not appear to be well-formed XML.",
+    "malformed_tbx":  "File appears to be well-formed XML, but does not appear to be TBX.",
+    "invalid_tbx":    "File claims to be TBX, but does not appear valid.",
+    "v2":             "File appears to be a 2008 TBX (v2) file.",
+    "bad_v3":         "File appears to be a 2019 TBX (v3) file, but has no valid dialect.",
+    "v3":             "File appears to be a 2019 TBX (v3) file with dialect:",
+}
 
 
 class TBX:
@@ -253,6 +265,78 @@ class TBX:
         # Return final string
         return self.elementtree_to_string(processing_instructions, tree)
 
+    def check_tbx_version(self, extension: str = "") -> str:
+        """
+        Attempt to replicate the logic and messages from main.pl as closely as possible.
+        The original main.pl performed:
+        1) Check file extension => "bad_ext" if not matching (xml|tbxm?)
+        2) Check if first non-empty line has "<?xml" => "not_xml"
+        3) Parse with XML::Twig => "malformed_xml" if parse fails
+        4) If parse succeeds but root tag isn't recognized => "malformed_tbx" or "invalid_tbx"
+        5) twig_handlers:
+            - <TBX> => if dialect="TBX-Min" => "v2" else => "invalid_tbx"
+            - <martif> => "v2"
+            - <tbx> => if type starts with "TBX-" => "v3" (with dialect) else => "bad_v3"
+            - <MARTIF> => "invalid_tbx"
+        """
+
+
+        # 1) Check the extension if provided. (In main.pl: exit $messages{'bad_ext'} if not match.)
+        #    We approximate this by checking extension param, if present:
+        if extension:
+            if not re.search(r'\.(xml|tbxm?)$', extension, re.IGNORECASE):
+                return check_version_messages["bad_ext"]
+
+        # 2) Check if first non-empty line contains "<?xml". (main.pl reads the file and checks.)
+        #    Since we only have self.orig_str, let's look at the first non-blank line:
+        lines = self.orig_str.splitlines()
+        for line in lines:
+            if line.strip():  # first non-empty line
+                if "<?xml" not in line:
+                    return check_version_messages["not_xml"]
+                break
+        else:
+            # If we never found a non-empty line, treat it as no content => not_xml
+            return check_version_messages["not_xml"]
+
+        # 3) Attempt to parse. If parse fails => "malformed_xml"
+        try:
+            root = ET.fromstring(self.orig_str)
+        except ET.ParseError:
+            return check_version_messages["malformed_xml"]
+        root_tag = re.sub(r'^{[^}]*}', '', root.tag)
+
+        # 4) Now replicate the twig_handlers:
+        #    <TBX>, <martif>, <tbx>, <MARTIF>
+        #    If none of these match => "malformed_tbx"
+        # Because the original twig_handlers are case-sensitive, let's check exactly:
+        # However, main.pl also had an uppercase 'MARTIF' => "invalid_tbx".
+        # We'll do direct matches plus defaults if not recognized.
+        if root_tag == "TBX":
+            dialect = root.attrib.get("dialect", "")
+            if dialect == "TBX-Min":
+                return check_version_messages["v2"]
+            else:
+                return check_version_messages["invalid_tbx"]
+        elif root_tag == "martif":
+            return check_version_messages["v2"]
+
+        elif root_tag == "tbx":
+            # if type=~ /^TBX-.*?/ => v3 (with dialect), else => bad_v3
+            tbx_type = root.attrib.get("type", "")
+            print(f"{tbx_type= }")
+            if re.match(r"^TBX-", tbx_type):
+                # e.g. "File appears to be a 2019 TBX (v3) file with dialect: 'TBX-Basic'"
+                return f"{check_version_messages['v3']} '{tbx_type}'"
+            else:
+                return check_version_messages["bad_v3"]
+
+        elif root_tag == "MARTIF":
+            return check_version_messages["invalid_tbx"]
+
+        else:
+            # If none of the recognized root tags matched => "malformed_tbx"
+            return check_version_messages["malformed_tbx"]
 
 if __name__ == "__main__":
     # Command-line interface

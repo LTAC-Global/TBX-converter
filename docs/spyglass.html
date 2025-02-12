@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TBX Spyglass</title>
+  <style>
+    .title {
+      font-size: 1.5em;
+    }
+    .validation_notice {
+      font-style: italic;
+      color: #555;
+    }
+    .container {
+      margin: 1em 0;
+    }
+    .results_image {
+      width: 48px;
+      height: 48px;
+      /* 1) Hide the results image by default */
+      display: none;
+    }
+    #progress-bar {
+      display: none; /* hidden by default */
+      width: 300px;
+      height: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 class="title">TBX Spyglass</h1>
+  <p class="validation_notice">This app does <em>not</em> validate TBX files.</p>
+
+  <div class="container">
+    <p>
+      <input type="file" id="tbxFile" accept=".xml,.tbx" />
+      <button id="analyzeBtn">Analyze TBX</button>
+    </p>
+    <p>
+      <progress id="progress-bar" aria-label="Analyzing file…"></progress>
+    </p>
+
+    <img class="results_image" id="resultsImage" src="img/x_red.png" alt="Result icon" />
+    <p id="resultsText"></p>
+  </div>
+
+  <!-- Load Pyodide (adjust version if needed) -->
+  <script src="https://cdn.jsdelivr.net/pyodide/v0.23.2/full/pyodide.js"></script>
+
+  <script>
+    let pyodideReady = (async () => {
+      const pyodide = await loadPyodide({
+        indexURL: "https://cdn.jsdelivr.net/pyodide/v0.23.2/full/"
+      });
+
+      // Fetch tbxtools.py (which should have a check_tbx_version() method)
+      const response = await fetch("py/tbxtools.py");
+      if (!response.ok) {
+        throw new Error(`Failed to fetch tbxtools.py: ${response.statusText}`);
+      }
+      const pyCode = await response.text();
+
+      pyodide.FS.writeFile("tbxtools.py", pyCode);
+
+      await pyodide.runPythonAsync(`
+import sys
+sys.path.append(".")
+import tbxtools
+print("tbxtools.py loaded in Pyodide")
+      `);
+
+      return pyodide;
+    })();
+
+    const fileInput = document.getElementById("tbxFile");
+    const analyzeBtn = document.getElementById("analyzeBtn");
+    const progressBar = document.getElementById("progress-bar");
+    const resultsImage = document.getElementById("resultsImage");
+    const resultsText = document.getElementById("resultsText");
+
+    // 2) Whenever a new file is selected, re-hide the results image
+    fileInput.addEventListener("change", () => {
+      resultsImage.style.display = "none";
+      resultsText.textContent = "";
+    });
+
+    analyzeBtn.addEventListener("click", async () => {
+      if (!fileInput.files || fileInput.files.length === 0) {
+        alert("Please select a TBX file first.");
+        return;
+      }
+
+      // Show the progress bar
+      progressBar.style.display = "inline-block";
+      progressBar.value = 0;
+
+      // Reset UI elements (hide image, clear text)
+      resultsImage.style.display = "none";
+      resultsImage.src = "img/x_red.png";
+      resultsText.textContent = "";
+
+      try {
+        const pyodide = await pyodideReady;
+        const file = fileInput.files[0];
+        const text = await file.text();
+
+        // Set 'tbx_input' in Pyodide
+        pyodide.globals.set("tbx_input", text);
+
+        // We'll call check_tbx_version
+        const code = `
+import tbxtools
+tbx_obj = tbxtools.TBX(tbx_input)
+result = tbx_obj.check_tbx_version()
+result
+`;
+        const resultString = await pyodide.runPythonAsync(code);
+
+        // By default, we show "x_red.png" unless we detect v2 or v3
+        let icon = "img/x_red.png";
+        let message = resultString;
+
+        // If the returned string has "v3" => green check
+        // If it has "v2" => yellow check + link to update
+        if (/v3/i.test(resultString)) {
+          icon = "img/check_green.png";
+        } else if (/v2/i.test(resultString)) {
+          icon = "img/check_yellow.png";
+          message += ' <a href="/converter.html">Update this file to TBX v3</a>';
+        }
+
+        // Show the results
+        resultsImage.src = icon;
+        // Make the image visible again
+        resultsImage.style.display = "inline-block";
+        resultsText.innerHTML = message;
+      } catch (err) {
+        console.error("Error analyzing file:", err);
+        resultsImage.src = "img/x_red.png";
+        resultsImage.style.display = "inline-block";
+        resultsText.textContent = String(err);
+      } finally {
+        progressBar.style.display = "none";
+      }
+    });
+  </script>
+</body>
+</html>
