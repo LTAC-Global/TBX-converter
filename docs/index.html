@@ -155,8 +155,8 @@ print("tbxtools.py loaded into Pyodide")
         // 3) Run the Python code, providing 'schemas_js=schemas_js'
         const code = `
 import tbxtools
-converted_xml = tbxtools.convert_tbx(tbx_input, silent=True, schemas_js=schemas_js)
-converted_xml
+converted_xml = tbxtools.TBX(tbx_input).convert2to3(silent=True, schemas_js=schemas_js)
+converted_xml  # Final expression is what is returned
 `;
         const result = await pyodide.runPythonAsync(code);
 

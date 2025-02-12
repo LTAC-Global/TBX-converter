@@ -4,10 +4,9 @@ import xml.etree.ElementTree as ET
 from xml.dom import minidom
 
 import pytest
+from tbxtools import TBX
 
-from tbxtools import convert_tbx
-from tbxtools import elementtree_to_string
-
+# Gather all *.tbx files for parametric testing
 tbx2_paths = list((Path(__file__).parent / 'resources').glob('*.tbx'))
 
 
@@ -28,8 +27,10 @@ def are_element_trees_equal(element1, element2):
         return False
     if len(element1) != len(element2):
         return False
-    return all(are_element_trees_equal(child1, child2)
-               for child1, child2 in zip(element1, element2))
+    return all(
+        are_element_trees_equal(c1, c2)
+        for c1, c2 in zip(element1, element2)
+    )
 
 
 def filename_from_path(fixture_value):
@@ -38,23 +39,32 @@ def filename_from_path(fixture_value):
 
 @pytest.fixture(params=tbx2_paths, ids=filename_from_path)
 def example_conversions(request):
-    """Return tuple of paths (src, correctly_converted) from example tbx files."""
+    """
+    Return a tuple of:
+      - The path to the original *.tbx file
+      - The path to the corresponding "correctly converted" file
+        (same name, but in 'converted-by-pl' subfolder).
+    """
     tbx2_path = request.param
     tbx3_path = tbx2_path.parent / 'converted-by-pl' / tbx2_path.name
     return (tbx2_path, tbx3_path)
 
 
 def test_compare_with_perl_output_for_example_tbx_files(example_conversions):
+    """
+    Test that the Python conversion matches the known good conversion.
+    """
     tbx2_path, tbx3_path = example_conversions
-    canonical_tbx3_gold_string_from_pl = ET.canonicalize(from_file=str(tbx3_path))
-    with tbx2_path.open() as f:
-        tbx2_string = f.read()
-    tbx3_string_from_py = convert_tbx(tbx2_string)
-    canonical_tbx3_string_from_py = ET.canonicalize(tbx3_string_from_py)
-    with open(f"/tmp/pytest/gold-{tbx2_path.name}", 'w') as f:
-        f.write(canonical_tbx3_gold_string_from_pl)
-    with open(f"/tmp/pytest/pred-{tbx2_path.name}", 'w') as f:
-        f.write(canonical_tbx3_string_from_py)
 
-    # assert are_element_trees_equal(ET.parse(str(tbx3_path)).getroot(), tbx3_from_py.getroot())
+    # Canonicalize the "correct" TBX output (from the 'converted-by-pl' directory)
+    canonical_tbx3_gold_string_from_pl = ET.canonicalize(from_file=str(tbx3_path))
+
+    # Parse and convert the original TBX using TBX class
+    tbx2 = TBX.from_file(str(tbx2_path))
+    tbx3_string_from_py = tbx2.convert2to3()
+
+    # Canonicalize the resulting string
+    canonical_tbx3_string_from_py = ET.canonicalize(tbx3_string_from_py)
+
+    # Check for equality
     assert canonical_tbx3_gold_string_from_pl == canonical_tbx3_string_from_py
